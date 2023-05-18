@@ -9,6 +9,7 @@ createApp({
   },
   methods : {
   emailGen(){
+    this.emails = []
     for (let i = 0; i < 10; i++) {
         // const rispEle = array[i];
         axios.get( this.email ).then((risp) => {
